@@ -32,7 +32,7 @@ function HomePage() {
         <div className="absolute top-2 right-10 border-2 border-slate-300">
           <div className="h-30 w-66 m-1 flex justify-center items-center border-2 border-black">
             <Link
-              to="https://github.com/"
+              to="https://github.com/jalajsc/SpriteEra_QuizApp"
               className="h-12 w-60 m-0 text-4xl text-center text-white rounded-sm bg-slate-500 shadow-lg shadow-slate-700 text-shadow hover:bg-blue-700 hover:shadow-black hover:shadow-md"
             >
               GitHub Link
