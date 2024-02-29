@@ -35,7 +35,7 @@ function OneQuetion({
     );
   });
   return (
-    <div className="w-1/2 flex flex-col bg-transparent border-2 border-slate-500 rounded-l bg-green-100 shadow-xl">
+    <div className="w-full flex flex-col bg-transparent border-2 border-slate-500 rounded-l bg-green-100 shadow-xl">
       <p className="text-lg ">
         Question {ind + 1}: {quetion}
       </p>

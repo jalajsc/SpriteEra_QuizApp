@@ -9,15 +9,17 @@ function HomePage() {
     <>
       <Header />
       <div
-        className=" w-full  flex flex-col justify-center items-center"
+        className=" w-full  flex flex-col justify-center items-center bg-gray-700"
         style={{
           height: "81vh",
-          backgroundImage: `url(${Logo})`,
+          // backgroundImage: `url(${Logo})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
       >
-        <div className="text-5xl text-slate-700 ">Welcome to Quiz!</div>
+        <div className="text-5xl text-slate-900 italic underline underline-offset-4 font-bold font-mono">
+          Welcome to Quiz!
+        </div>
         <div className="text-2xl text-clip mb-10">5 Quetions, 5 Minutes</div>
         <div className="border-2 border-slate-300">
           <div className="h-30 w-66 m-1 flex justify-center items-center border-2 border-black">

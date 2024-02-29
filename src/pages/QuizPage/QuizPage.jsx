@@ -45,15 +45,15 @@ function QuizPage({
     <>
       <Header />
       <div
-        className="h-screen w-full flex flex-col items-center overflow-auto"
+        className="h-screen w-full bg-gray-700 flex flex-col items-center overflow-auto"
         style={{
           height: "81vh",
-          backgroundImage: `url(${Logo})`,
+          // backgroundImage: `url(${Logo})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}
       >
-        <div className="w-full flex flex-col items-center">
+        <div className="w-1/2 flex flex-col items-center border-l-indigo-300 bg-indigo-100">
           {quetionElement}
         </div>
         <button
